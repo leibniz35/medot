@@ -3,10 +3,12 @@ from fastai.vision.all import *
 from pathlib import Path
 import streamlit as st
 from urllib.request import urlretrieve
-urll = ("http://dl.dropboxusercontent.com/s/iv1ddg1d0ogk3di/Picture1.png?raw=1")
-filenamee = "Picture1.png"
-urlretrieve(urll,filenamee)
-st.image(filenamee)
+
+
+#urll = ("http://dl.dropboxusercontent.com/s/iv1ddg1d0ogk3di/Picture1.png?raw=1")
+#filenamee = "Picture1.png"
+#urlretrieve(urll,filenamee)
+#st.image(filenamee)
 
 
 url = 'http://dl.dropboxusercontent.com/s/sclyjuhgakarplh/export.pkl?raw=1'
