@@ -14,7 +14,7 @@ from urllib.request import urlretrieve
 url = 'http://dl.dropboxusercontent.com/s/sclyjuhgakarplh/export.pkl?raw=1'
 filename = 'export.pkl'
 urlretrieve(url,filename)
-st.markdown("For Medathon")
+st.markdown("<3")
 
 
 
