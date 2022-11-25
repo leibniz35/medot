@@ -9,11 +9,10 @@ urlretrieve(urll,filenamee)
 st.image(filenamee)
 
 
-url = 'http://dl.dropboxusercontent.com/s/wblnlkuldgxo5zw/export.pkl?raw=1'
+url = 'http://dl.dropboxusercontent.com/s/sclyjuhgakarplh/export.pkl?raw=1'
 filename = 'export.pkl'
 urlretrieve(url,filename)
 st.markdown("For Medathon")
-
 
 
 
