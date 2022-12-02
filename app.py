@@ -11,8 +11,8 @@ from urllib.request import urlretrieve
 #st.image(filenamee)
 
 
-url = 'http://dl.dropboxusercontent.com/s/8enqf9v1s1fq9ty/export.pkl?raw=1'
-filename = 'exportt.pkl'
+url = 'http://dl.dropboxusercontent.com/s/kcmjcwxjtxnpt5n/export.pkl?raw=1'
+filename = 'export.pkl'
 urlretrieve(url,filename)
 st.markdown("<3")
 
